@@ -23,6 +23,13 @@ namespace FirstMVCApp.Controllers
             return View();
         }
 
+        public IActionResult MyFirstView() { 
+            
+            return View(); 
+        
+        }   
+           
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
